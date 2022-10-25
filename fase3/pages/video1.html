@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseño de sitio web</title>
+    <link rel="stylesheet" href="css/stilos.css">
+    <style>
+        body {
+            padding: 20px;
+            background-color: rgb(156, 40, 40);
+            text-align: center;
+            -webkit-text-fill-color: rgb(35, 28, 97);
+            font-family: "Verdana";
+            font-size: 15pt;
+
+        }
+        ul, ol{
+            list-style: none;
+        }
+        .menu li a{
+            background-color:#0f444d;
+            text-decoration: none;
+            color: white;
+            padding: 10px 40px;
+            display: block;
+            width: 900;
+            max-width: 1000px;
+        }
+        .menu > li{
+            float: left;
+        }
+        .menu li a:hover{
+            background: #ef8354;
+        }
+        .menu li ul{
+            display: none;
+            position: absolute;
+            min-width: 120px;
+        }
+        .menu li:hover > ul{
+            display: block;
+        }
+        .menu li{
+            text-align: center;
+            }
+        .menu{
+            list-style: none;
+            padding: 0;
+        }  
+
+        
+    </style>
+</head>
+<body>
+    <ul class="menu">
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="#">Temas</a>
+            <ul>
+                <li><a href="intro.html">Interacción Humano - Ordenador</a></li>
+                <li><a href="fundamentos.html">Fundamentos HTML</a></li>
+
+            </ul>
+            
+                
+     
+            
+                
+        <li><a href="#">multimedia</a>
+            <ul>
+                <li><a href="video1.html">Audio1</a></li>
+                <li><a href="video2.html">Audio2</a></li>
+                
+
+            </ul>
+                    
+    
+            
+                
+            <li><a href="#">Aprendizaje</a>
+                <ul>
+                    <li><a href="apren1.html">Video Aprendizaje1</a></li>
+                    <li><a href="apren2.html">Video Aprendizaje2</a></li>
+                    
+    
+                </ul>
+                
+                     
+
+
+
+
+            </li>
+            <li><a href="derechos.html">Derechos</a>
+            </ul>
+
+            <article> <br>
+                <h2>Multimedia</h2>
+                <video width="320" height="240" controls>
+                    <source src="video/audio2.mp3" type="audio/mp3">
+        
+                    
+            
+                 </video><br>
+                 <p>
+                    Celaya Luna, A. (2014). Creación de páginas web: HTML5. p. 1 - 60.  https://elibro-net.bibliotecavirtual.unad.edu.co/es/ereader/unad/56045
+                 </p>
+</body>
+</html>
