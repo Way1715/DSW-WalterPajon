@@ -1,0 +1,100 @@
+ul, ol{
+    list-style: none;
+}
+.menu li a{
+    background-color:#092327;
+    text-decoration: none;
+    color: white;
+    padding: 10px 40px;
+    display: block;
+    width: 900;
+    max-width: 1000px;
+}
+.menu > li{
+    float: left;
+}
+.menu li a:hover{
+    background: #ef8354;
+}
+.menu li ul{
+    display: none;
+    position: absolute;
+    min-width: 120px;
+}
+.menu li:hover > ul{
+    display: block;
+}
+.menu li{
+    text-align: center;
+    }
+.menu{
+    list-style: none;
+    padding: 0;
+}  
+
+
+header{
+    
+    padding: 40px;
+    text-align: center;
+    -webkit-text-fill-color: rgb(35, 28, 97);
+}
+nav img{
+    
+    
+    
+    padding: auto;
+    display: grid;
+    width:920px;
+    height: 240px;
+    margin: auto;
+    max-width: 1000px;
+}
+    
+    
+
+.contenedor{
+   
+    padding: 30px;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+}
+.principal{
+   
+    padding: 30px;
+    grid-column: 2/5;
+    margin: auto;
+}
+.lateral{
+    
+    padding: 20px;
+    grid-column: 1/2;
+    -webkit-text-fill-color: rgb(19, 17, 32);
+    text-decoration: double;
+    font-family: "Verdana";
+    font-size: 15pt;
+    font-weight: normal;
+    text-align-last: left;
+   line-height: 30px;
+    
+
+}
+.pie{
+    padding: 20px;
+    background-color: rgb(250, 130, 61);
+    text-align: center;
+    -webkit-text-fill-color: rgb(35, 28, 97);
+   
+}
+body{
+    font-family: Arial, Helvetica;
+    background: #ffffff;
+    margin: auto;
+    
+}
+.autor{
+    font-family: Arial, Helvetica;
+    background: #6543fd;
+    margin: auto;
+}
+
